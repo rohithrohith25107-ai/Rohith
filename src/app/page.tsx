@@ -38,7 +38,7 @@ export default function Home() {
               <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
               <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/>
             </svg>
-            Sree Narayana Guru Polytechnic College
+          EXCEL Hi tech Engineering college
           </div>
           <p className="hero-description">
             A passionate Computer Science & Engineering Diploma student, dedicated to building clean, functional, and visually striking digital experiences.
