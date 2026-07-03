@@ -38,7 +38,7 @@ export default function Home() {
               <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
               <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5" />
             </svg>
-            EXCEL Hi tech Engineering college
+            Excel Hi tech Engineering college
           </div>
           <p className="hero-description">
             A passionate Computer Science & Engineering Diploma student, dedicated to building clean, functional, and visually striking digital experiences.
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="about-grid">
             <div className="about-content">
               <p>
-                I am currently pursuing a Diploma in Computer Science & Engineering (CSE) at <strong>EXCEL Hi tech Engineering college</strong>. My academic journey has allowed me to build a solid foundation in programming, software logic, and database architectures.
+                I am currently pursuing a Diploma in Computer Science & Engineering (CSE) at <strong>Excel Hi tech Engineering college</strong>. My academic journey has allowed me to build a solid foundation in programming, software logic, and database architectures.
               </p>
               <p>
                 I enjoy exploring new technologies and building web projects that solve real-world problems. Whether it's crafting user-centric frontends or engineering backend logics, I love the process of translating complex ideas into code.
@@ -83,7 +83,7 @@ export default function Home() {
               </div>
               <div className="info-item">
                 <h4>College</h4>
-                <p>EXCEL</p>
+                <p>Excel</p>
               </div>
               <div className="info-item">
                 <h4>Location</h4>
@@ -132,7 +132,7 @@ export default function Home() {
               <div className="timeline-card">
                 <span className="timeline-date">2024 - Present</span>
                 <h3>Diploma in Computer Science & Engineering</h3>
-                <div className="timeline-institution">EXCEL Hi tech Engineering college</div>
+                <div className="timeline-institution">Excel Hi tech Engineering college</div>
                 <p>
                   Acquiring rigorous technical training in fundamental computer engineering topics including Data Structures, Algorithms, Object-Oriented Programming, Database Management, and Operating Systems.
                 </p>
@@ -175,9 +175,9 @@ export default function Home() {
                   <span className="project-tag">JS ES6</span>
                   <span className="project-tag">Academic Project</span>
                 </div>
-                <h3>EXCEL Student Helper</h3>
+                <h3>Excel Student Helper</h3>
                 <p>
-                  A student utility application designed to help EXCEL Hi tech Engineering college students easily view circulars, check timetables, and keep track of academic updates.
+                  A student utility application designed to help Excel Hi tech Engineering college students easily view circulars, check timetables, and keep track of academic updates.
                 </p>
                 <a href="#" onClick={(e) => e.preventDefault()} className="project-link">
                   Prototype coming soon
@@ -251,7 +251,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer>
-        <p>&copy; {new Date().getFullYear()} Rohith. All rights reserved. CSE Student at EXCEL Hi tech Engineering college.</p>
+        <p>&copy; {new Date().getFullYear()} Rohith. All rights reserved. CSE Student at Excel Hi tech Engineering college.</p>
       </footer>
     </>
   );

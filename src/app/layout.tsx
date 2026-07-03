@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Rohith | Portfolio",
-  description: "Personal portfolio website of Rohith, a Computer Science & Engineering student at EXCEL Hi tech Engineering college.",
-  keywords: ["Rohith", "EXCEL Hi tech Engineering college", "Computer Science", "CSE", "Diploma", "Portfolio", "Web Developer"],
+  description: "Personal portfolio website of Rohith, a Computer Science & Engineering student at Excel Hi tech Engineering college.",
+  keywords: ["Rohith", "Excel Hi tech Engineering college", "Computer Science", "CSE", "Diploma", "Portfolio", "Web Developer"],
 };
 
 export default function RootLayout({
