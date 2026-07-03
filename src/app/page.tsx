@@ -63,7 +63,7 @@ export default function Home() {
           <div className="about-grid">
             <div className="about-content">
               <p>
-                I am currently pursuing a Diploma in Computer Science & Engineering (CSE) at <strong>Sree Narayana Guru Polytechnic College</strong>. My academic journey has allowed me to build a solid foundation in programming, software logic, and database architectures.
+                I am currently pursuing a Diploma in Computer Science & Engineering (CSE) at <strong>EXCEL Hi tech Engineering college</strong>. My academic journey has allowed me to build a solid foundation in programming, software logic, and database architectures.
               </p>
               <p>
                 I enjoy exploring new technologies and building web projects that solve real-world problems. Whether it's crafting user-centric frontends or engineering backend logics, I love the process of translating complex ideas into code.
