@@ -132,7 +132,7 @@ export default function Home() {
               <div className="timeline-card">
                 <span className="timeline-date">2024 - Present</span>
                 <h3>Diploma in Computer Science & Engineering</h3>
-                <div className="timeline-institution">Sree Narayana Guru Polytechnic College</div>
+                <div className="timeline-institution">EXCEL Hi tech Engineering college</div>
                 <p>
                   Acquiring rigorous technical training in fundamental computer engineering topics including Data Structures, Algorithms, Object-Oriented Programming, Database Management, and Operating Systems.
                 </p>
@@ -177,7 +177,7 @@ export default function Home() {
                 </div>
                 <h3>SNGPC Student Helper</h3>
                 <p>
-                  A student utility application designed to help Sree Narayana Guru Polytechnic College students easily view circulars, check timetables, and keep track of academic updates.
+                  A student utility application designed to help EXCEL Hi tech Engineering college students easily view circulars, check timetables, and keep track of academic updates.
                 </p>
                 <a href="#" onClick={(e) => e.preventDefault()} className="project-link">
                   Prototype coming soon
