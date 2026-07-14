@@ -1,21 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Sora, Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const sora = Sora({
+  variable: "--font-sora",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
-  title: "Rohith | Portfolio",
-  description: "Personal portfolio website of Rohith, a Computer Science & Engineering student at Excel Hi tech Engineering college.",
-  keywords: ["Rohith", "Excel Hi tech Engineering college", "Computer Science", "CSE", "Diploma", "Portfolio", "Web Developer"],
+  title: "Rohith R — Front-End Developer",
+  description: "Front-end developer with hands-on experience in HTML, CSS, and responsive design, complemented by AWS cloud training and generative AI coursework.",
 };
 
 export default function RootLayout({
@@ -24,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${sora.variable} ${inter.variable}`}>
       <body>{children}</body>
     </html>
   );
