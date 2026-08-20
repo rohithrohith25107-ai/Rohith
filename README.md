@@ -1,131 +1,41 @@
-# Rohith R — Front-End Developer Portfolio
+# Rohith R - Personal Portfolio & Website
 
-<div align="center">
-  <img src="./public/screenshots/portfolio_banner.png" alt="Rohith R Portfolio Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
+Welcome to my personal portfolio codebase! Built with React, TypeScript, Vite, and Tailwind CSS.
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  </p>
+## 🚀 Features
 
-  <h4>Building clean, responsive web experiences — with cloud and AI fundamentals to back it up.</h4>
-</div>
+- **Dynamic Interactive UI**: Modern dark theme with smooth glassmorphism design, ambient glow, and micro-interactions.
+- **Projects Showcase**: Detailed project cards, live links, GitHub source access, and interactive project modal views.
+- **Experience & Education**: Timeline view of professional roles, internships, education, and milestones.
+- **Interactive Certifications**: Grid view of industry credentials and certifications with credential modal support.
+- **Resume Integration**: Direct resume preview CTA modal and downloadable PDF.
+- **Contact Form**: Interactive contact section with quick links for LinkedIn, GitHub, and Email.
 
----
+## 🛠️ Tech Stack
 
-## 🚀 About Me
+- **Framework**: React 18 + Vite
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS, PostCSS, Lucide React icons
+- **Build Tool**: Vite
 
-I pursues front-end development with a strong focus on clean UI designs, fast page loads, and shipping projects that perform under real use. My work is backed by a disciplined background in operations (billing & inventory management) along with certification training in AWS cloud fundamentals and generative AI models.
+## 💻 Getting Started Locally
 
-- 📍 Based in **Coimbatore, Tamil Nadu, India**
-- 🎓 Pursuing a **Diploma in Computer Science** at Excel Hi-Tech Engineering College
-- 💼 Web Development Intern at **Initz Institution**
-- ⚡ Strong adaptibility, problem-solving, and clear team communication
+```bash
+# Clone the repository
+git clone git@github.com:rohithrohith25107-ai/Rohith.git
 
----
+# Navigate into directory
+cd Rohith
 
-## 🎨 Design Theme: Glassmorphism
+# Install dependencies
+npm install
 
-This portfolio utilizes a premium **Glassmorphism Design System** crafted with Vanilla CSS. Key elements include:
-* **Ambient Glow Blobs**: Circular neon gradient backgrounds placed fixed behind the screen content.
-* **Frosted Glass Cards**: Sleek component borders with custom backdrop-filters (`blur(16px)`), subtle translucent white backings, and drop shadows.
-* **Micro-Animations**: Transitions on card interactions and hover states.
-* **Premium Scrollbars**: Unified webkit scroll styling matching the theme's colors.
-
----
-
-## 📸 Visual Previews
-
-### 💻 Website Overview
-Here's a breakdown of the design layout of the portfolio sections:
-
-<table>
-  <tr>
-    <td width="50%"><b>1. Hero & Navigation</b><br/><img src="./public/screenshots/portfolio_top.png" width="100%"/></td>
-    <td width="50%"><b>2. Skills & Tags</b><br/><img src="./public/screenshots/portfolio_skills.png" width="100%"/></td>
-  </tr>
-  <tr>
-    <td width="50%"><b>3. Experience Timeline</b><br/><img src="./public/screenshots/portfolio_experience.png" width="100%"/></td>
-    <td width="50%"><b>4. Projects Grid</b><br/><img src="./public/screenshots/portfolio_projects.png" width="100%"/></td>
-  </tr>
-  <tr>
-    <td width="50%"><b>5. Certifications & Education</b><br/><img src="./public/screenshots/portfolio_certifications.png" width="100%"/></td>
-    <td width="50%"><b>6. Contact Footer</b><br/><img src="./public/screenshots/portfolio_bottom.png" width="100%"/></td>
-  </tr>
-</table>
-
-### 🎬 Interactive Preview Recording
-A recorded preview of scrolling animations and responsive responsiveness on localhost:
-
-<div align="center">
-  <img src="./public/screenshots/portfolio_preview.webp" alt="Website preview flow" width="80%" style="border: 1px solid rgba(255,255,255,0.1); border-radius: 8px;" />
-</div>
-
----
-
-## ⚙️ Tech Stack & Optimization
-
-* **Framework**: Next.js (App Router)
-* **Language**: TypeScript
-* **Styling**: Custom CSS (Vanilla CSS for maximum design flexibility and control)
-* **Fonts**: `next/font/google` configuration for **Sora** (headers) and **Inter** (body), eliminating layout shifts and preloading automatically.
-* **Deployment**: Optimized for Vercel edge networks.
-
----
-
-## 🛠️ File Structure
-
-```text
-├── public/                  # Static assets and favicon
-│   └── screenshots/         # Media visual files for README
-├── src/
-│   └── app/
-│       ├── favicon.ico
-│       ├── globals.css      # Core styles (glassmorphism tokens & layouts)
-│       ├── layout.tsx       # Next.js Root Layout & Font loader configuration
-│       └── page.tsx         # Main portfolio layout and profile copy
-├── package.json
-└── tsconfig.json
+# Start local dev server
+npm run dev
 ```
 
----
+## 📦 Build for Production
 
-## 🏃‍♂️ Getting Started
-
-### 📋 Prerequisites
-Ensure you have **Node.js** (v18 or higher) installed.
-
-### 💻 Run Locally
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/rohithrohith25107-ai/Rohith.git
-   cd Rohith
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**:
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-4. **Build production build**:
-   ```bash
-   npm run build
-   ```
-
----
-
-## 📬 Contact & Links
-
-- **Email**: [rajesha8925@gmail.com](mailto:rajesha8925@gmail.com)
-- **Phone**: [+91 9047918276](tel:+919047918276)
-- **GitHub**: [github.com/rohithrohith25107-ai](https://github.com/rohithrohith25107-ai)
-- **Portfolio Live Site**: [rohith-pied.vercel.app](https://rohith-pied.vercel.app)
+```bash
+npm run build
+```
